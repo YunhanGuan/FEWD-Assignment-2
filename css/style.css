@@ -1,0 +1,165 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+header {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../header_bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+
+}
+.branding {
+	
+	margin-top:20px;
+	margin-left: 60px;
+	margin-bottom: 200px;
+	font-weight: bold;
+	font-size: 24px;
+	color: white;
+	align-self: flex-start;
+}
+.title {
+	margin-bottom: 150px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+.button {
+	margin-top: 30px;
+	padding: 20px 30px;
+	background-color: #f9e42e;
+	color: #033048;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	display: inline-block;
+}
+main {
+	display: flex;
+	flex-direction: column;
+}
+h2 {
+	margin-top: 250px;
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+p {
+	margin-top: 80px;
+	color: #606161;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: center;
+}
+ul {
+	margin-top: 60px;
+	margin-left: 150px;
+    margin-right: 100px;
+    margin-bottom: 300px;
+	color: #606161;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.testimonial {
+	height: 85vh;
+	width: 100vw;
+	font-size: 30px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	background-image: url("../testimonial_bg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.one {
+	padding-top: 150px;
+	padding-left: 550px;
+	padding-right: 550px;
+	color: white;
+}
+
+.author {
+	padding-top: 50px;
+	color: white;
+	
+}
+.rectangle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 15vh;
+	width: 100vw;
+	background-color: yellow;
+}
+
+.signup {
+	margin-top: 25px;
+	padding: 25px 80px;
+	text-align: center;
+	display: inline-block;
+/*	padding: 30px 30px;*/
+	font-size: 20px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+    cursor: pointer;
+	background-color: #033048;
+
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	background-color: #121212;
+	height: 500px;
+	width: 100vw;
+}
+.branding2 {
+	padding-top: 100px;
+	text-align: center;
+	color: yellow;
+	font-size: 30px;
+}
+.icon {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+.twitter {
+	
+	padding-left: 670px;
+	height: 30px;
+	width: 35px;
+}
+.facebook {
+	padding-left: 40px;
+	height:30px;
+	width: 20px;
+	
+}
+.Copyright {
+	color: grey;
+	text-align: center;
+	padding-top: 110px;
+	font-size: 15px;
+}
+
+
+
+
+
+
